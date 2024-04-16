@@ -1,0 +1,117 @@
+<script>
+    function submit_event() {
+    var title = document.forms["event"]["event_title"].value;
+    var date = document.forms["event"]["event_date"].value;
+    if (title == "") {
+    alert("An event must have a title!");
+    }
+    else {
+    if (date.length == 0) {
+    alert("An event must have a date!");
+    }
+    else {
+    alert("Event submitted! The society will contact you soon!");
+    }
+    }
+    }
+</script>
+
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <header>
+           
+            <div1>
+                <!-- https://seeklogo.com/vector-logo/101884/oasis-->
+                <img src="C:\Users\User\OneDrive\Desktop\Web design\images\Oasis-logo-D16739DD2D-seeklogo.com.png">
+            
+
+            </div1>
+
+            <h1>
+                <div2>  
+                    Oasis Society
+                </div2>
+            </h1>
+        </header>
+
+        <nav>
+
+        <ul><!--navigation menu displayed as inline blocks-->
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="img_gallery.html">Image Gallery</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+            <li><a href="current_members.html">Current members</a></li>
+            <li><a href="event_calendar.html">Event Calendar</a></li>
+            <li><a href="knebworth.html">Knebworth</a></li>
+            <li><a href="Song_of_the_week.html">Song Of The Week</a></li>
+        </ul>
+        </nav>
+        <main>
+            <div>
+                <h4>
+                    Upcoming events
+                </h4>
+                <table style="width: 100%;">
+                    <tr><!--table used to show upcoming events displayed as blocks, rows has alternating colours-->
+                        <td></td><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday </th><th>Sunday</th> 
+                    </tr>
+                    <tr style="height: 100px;">
+                        <th>W1</th><td></td><td></td><td></td><td></td><td>MAD FERIT <br/> FRIDAY<br/>Old School Bar<br/>8pm-3am<td>End of year Oasis theme night out <br/>Dress up as 90s britpop <br/> meet at Lane 7 <br/>8pm-3am</td><td>
+                    </tr>
+                    <tr>
+                        <th>W2</th><td></td><td></td><td></td><td></td><td>MAD FERIT <br/> FRIDAY<br/>Old School Bar<td></td><td>
+                    </tr>
+                    <tr>
+                        <th>W3</th><td></td><td></td><td></td><td></td><td>MAD FER IT <br/> FRIDAY<br/>Old School Bar</td><td>Definitly Oasis Tribute <br/>OGV Podium <br/>7pm-3am</td>
+                    </tr>
+                    <tr>
+                        <th>W4</th><td></td><td></td><td>Oasis karaoke <br/>Bardots karaoke bar <br/> 9pm-3am</td><td></td><td>MAD FER IT <br/> FRIDAY<br/>Old School Bar</td><td></td>
+                    </tr>
+                    <tr>
+                        <th>W5</th><td></td><td></td><td></td><td></td><td>MAD FER IT <br/> FRIDAY<br/>Old School Bar<br/>8pm-3am<td><td></td><td>
+                    </tr>
+                    <tr>
+                        <th>W6</th><td></td><td></td><td></td><td></td><td>MAD FER IT <br/> FRIDAY<br/>Old School Bar<br/>8pm-3am<td><td></td><td>
+                    </tr>
+                    <tr>
+                        <th>W7</th><td></td><td></td><td></td><td></td><td>MAD FERIT <br/> FRIDAY<br/>Old School Bar<br/>8pm-3am<td></td><td>
+                    <tr>
+                        <th>W8</th><td></td><td></td><td></td><td></td><td>MAD FER IT <br/> FRIDAY<br/>Old School Bar<br/>8pm-3am<td><td></td><td>
+                    </tr>
+                    <tr>
+                        <th>W9</th><td></td><td></td><td></td><td></td><td>MAD FER IT <br/> FRIDAY<br/>Old School Bar<br/>8pm-3am<td><td></td><td>
+                    </tr>
+                    <tr>
+                        <th>W10</th><td></td><td></td><td></td><td></td><td>MAD FER IT <br/> FRIDAY<br/>Old School Bar<br/>8pm-3am<td><td></td><td>
+                    </tr>
+                </table>
+            </div> 
+            <div><!--form uses javascript function to detect if there is text present in the input fields-->
+                <form name="event">
+                    <fieldset>
+                        <legend>Want to reccommend us an event?</legend> 
+                        
+                        <label for="event_title">Event Title: </label>
+                        <input type="text" name="event_title" value=""/> <br/>
+                        <label for="event_date">Event date: </label>
+                        <input type="date" name="event_date" value=""/> <br/>
+                        <label for="comment">Comment: </label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        <button type="button" onclick="submit_event()">Submit</button>
+        
+                    </fieldset>
+                </form>
+            </div>
+           
+            </main>
+
+
+    </body>
+</html>

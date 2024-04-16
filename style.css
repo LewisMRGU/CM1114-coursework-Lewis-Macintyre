@@ -1,0 +1,222 @@
+
+
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    font-family: verdana;
+    font-size: 150%;
+    image-rendering: auto;
+    text-align: center;
+}
+div{
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: rgb(24, 24, 24);
+
+}
+
+div2 {
+  text-align: right;
+}
+
+nav ul {
+    background-color: rgb(0, 0, 0);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav li  {
+    border: 2px;
+    display: inline-block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: verdana;
+    width: 14%;
+    background-color: rgb(27, 27, 27);
+
+}
+
+a:link {
+  color: blueviolet;
+}
+
+Nav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+ a:visited {
+  color: rgb(255, 255, 255);
+}
+a:active {
+  color: red;
+}
+
+
+
+#leftimage{
+    display: block;
+    margin: auto;
+    float:left;
+}
+
+#leftbigimage{
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+   
+}
+h2 {
+  color: rgb(255, 255, 255);
+  font-family: Verdana;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-family: Verdana;
+    
+    
+}
+
+
+p1 {
+    color: rgb(255, 255, 255);
+    font-family: Verdana;
+    font-size: 110%;
+}
+
+p2 {
+    color: rgb(255, 255, 255);
+    font-family: Verdana;
+}
+
+table, th, td {
+    font-family: verdana;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+  }
+  th, td {
+    background-color: rgb(27, 27, 27);
+    
+  }
+
+  h4 {
+    font-family: verdana;
+    color: white;
+    font-size: 200%;
+
+  }
+  
+  legend {
+    font-family: verdana;
+    color: white;
+  }
+  label {
+    font-family: verdana;
+    color: white;
+  }
+
+  label {
+    display: inline-block; 
+    width: 120px; 
+    text-align: right; 
+    margin-right: 10px;
+  }
+
+  input[type=comment],select, textarea {
+    width: 25%;
+
+  }
+
+  h5 {
+    font-family: verdana;
+    color: white;
+    text-align: left;
+    font-size: 200%;
+  }
+
+  #LGcenterimage {
+    margin-left: 0px;
+  }
+
+ 
+
+  p3 {
+    font-family: verdana;
+    color: white;
+    font-size: 100%;
+    text-align: center;
+  }
+
+  h6{
+    font-family: verdana;
+    color: white;
+    font-size: 200%;
+    text-align: center;
+  }
+
+  p4 {
+    font-family: verdana;
+    color: white;
+    font-size: 110%;
+  }
+
+  .gallery-img {
+    width: 50%;
+
+  }
+
+  #img-gallery {
+    padding-top: 100px; ;
+  }
+
+  #img-gallery {
+    margin-bottom: 100px;
+  }
+
+ 
+
+  p5 {
+    font-family: verdana;
+    color: white;
+    font-size: 200%;
+    text-align: center;
+  }
+
+  iframe1 {
+    display: block;
+    margin-left: 700px;
+    margin-right: auto;
+     }
+
+     p6 {
+      font-family: verdana;
+    color: white;
+    font-size: 200%;
+    text-align: center;
+     }
+
+   
+
+   
+
+
+
+
+
+
+
+
+
+
+
